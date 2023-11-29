@@ -46,6 +46,7 @@ class Graph {
   }
 
   print() {
+    console.log('////////////////////////////////////////////////')
     this.vertices.forEach(vertex => vertex.print());
   }
 }
